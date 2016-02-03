@@ -1,0 +1,89 @@
+[PROJECT]
+Target=ALGFRM-RFID.hex
+Processor_Text=PIC18F6310
+CCSVersion=5.051
+Compiler=PCH
+[Target Data]
+FileList=ALGFRM-RFID.c
+[ALGFRM-RFID.c]
+Type=4
+[mru-list]
+1=ALGFRM-RFID.c
+
+[defines]
+buildcount=97
+
+[Opened Files]
+1=ALGFRM-RFID.c
+t1=250
+2=ALGFRM-RFID.h
+t2=63
+Count=6
+3=..\..\..\..\..\..\..\..\..\Program Files (x86)\PICC5.051\Devices\18F6310.h
+t3=813
+4=ddd.c
+t4=129
+5=..\..\..\GSM\1405159748_gsm2_click___exa_mikroc_pic\mikroC PRO for PIC\EasyPIC v7 - PIC18F45K22\GSM2_click_SMS.c
+t5=209
+6=..\..\..\..\..\..\Elfatek Repository\Load limiter\LoadLimiter Source-25.12.2015 -18F45K80\LoadLimiter.c
+t6=189
+
+[ProjectLog]
+Days=3
+D1=26-12-2015
+D1_L=7
+D1_L1=[60169]Stopped Editing.
+TotalEdit=136
+TotalDebug=0
+D1_E=6
+D1_D=0
+D1_L2=[60169]Project Closed.
+D1_L3=[60214]Project Opened.
+D1_L4=[60239]Started Editing.
+D1_L5=[60971]Stopped Editing.
+D1_L6=[61438]Started Editing.
+D1_L7=[61790]Stopped Editing.
+D2=28-12-2015
+D2_L=29
+D2_L1=[38584]Started Editing.
+D2_L2=[39157]Stopped Editing.
+D2_L3=[39536]Started Editing.
+D2_L4=[39961]Stopped Editing.
+D2_L5=[40775]Started Editing.
+D2_L6=[42156]Stopped Editing.
+D2_L7=[45422]Started Editing.
+D2_L8=[45723]Stopped Editing.
+D2_L9=[45834]Started Editing.
+D2_L10=[46638]Stopped Editing.
+D2_L11=[48285]Started Editing.
+D2_L12=[49846]Stopped Editing.
+D2_L13=[50031]Started Editing.
+D2_L14=[51204]Stopped Editing.
+D2_L15=[51244]Started Editing.
+D2_L16=[51748]Stopped Editing.
+D2_L17=[54080]Started Editing.
+D2_L18=[55070]Stopped Editing.
+D2_E=129
+D2_D=0
+D2_L19=[55070]Project Closed.
+D2_L20=[56367]Project Opened.
+D2_L21=[56378]Started Editing.
+D2_L22=[57000]Stopped Editing.
+D2_L23=[57533]Started Editing.
+D2_L24=[58181]Stopped Editing.
+D2_L25=[60784]Started Editing.
+D2_L26=[62276]Stopped Editing.
+D2_L27=[64248]Started Editing.
+D2_L28=[64549]Stopped Editing.
+D2_L29=[70702]Project Closed.
+D3=30-12-2015
+D3_L=4
+D3_L1=[41420]Project Opened.
+D3_L2=[41747]Started Editing.
+D3_L3=[41773]Stopped Editing.
+D3_E=1
+D3_D=0
+D3_L4=[41773]Project Closed.
+[Units]
+Count=1
+1=ALGFRM-RFID (main)

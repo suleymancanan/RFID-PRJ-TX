@@ -1,0 +1,21 @@
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 90(15,22): Variable never used:   channel
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 91(15,18): Variable never used:   idH
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 91(19,22): Variable never used:   idL
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 91(23,31): Variable never used:   chXORcod
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 92(27,35): Variable never used:   RFIDmsg_
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 94(32,38): Variable never used:   txmode
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 97(15,23): Variable never used:   TXBuffer
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 98(15,23): Variable never used:   RXBuffer
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 99(15,25): Variable never used:   nrfaddress
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 100(15,27): Variable never used:   config_setup
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 103(27,42): Variable never used:   lcdlightcounter
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 104(15,18): Variable never used:   sec
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 105(7,21): Variable never used:   lcdlightenable
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 112(15,25): Variable never used:   callnumber
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 115(15,20): Variable never used:   quote
+>>> Warning 202 "C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\ALGFRM-RFID.h" Line 116(15,17): Variable never used:   cr
+>>> Warning 202 "ALGFRM-RFID.c" Line 131(18,19): Variable never used:   i
+>>> Warning 202 "ALGFRM-RFID.c" Line 132(18,28): Variable never used:   smsmessage
+      Memory usage:   ROM=18%      RAM=34% - 35%
+      0 Errors,  18 Warnings.
+Build Successful.

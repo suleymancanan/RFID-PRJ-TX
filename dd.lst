@@ -1,0 +1,199 @@
+CCS PCH C Compiler, Version 5.051, 2123               26-Ara-15 16:42
+
+               Filename:   C:\Users\SCANAN\Desktop\SCANAN\!!!HOBÝ\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\ALGIFARM PRJ\Piccorretti GSM\RFID-PRJ-TX\dd.lst
+
+               ROM used:   302 bytes (1%)
+                           Largest free fragment is 32458
+               RAM used:   7 (0%) at main() level
+                           9 (0%) worst case
+               Stack used: 1 locations
+               Stack size: 31
+
+*
+0000:  GOTO   009A
+....................  
+.................... #include <18F25J50.h>  
+.................... //////////// Standard Header file for the PIC18F25J50 device //////////////// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... ////        (C) Copyright 1996, 2014 Custom Computer Services          //// 
+.................... //// This source code may only be used by licensed users of the CCS C  //// 
+.................... //// compiler.  This source code may only be distributed to other      //// 
+.................... //// licensed users of the CCS C compiler.  No other use, reproduction //// 
+.................... //// or distribution is permitted without written permission.          //// 
+.................... //// Derivative programs created using this software in object code    //// 
+.................... //// form are not restricted in any way.                               //// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... #device PIC18F25J50 
+0004:  DATA 0D,0A
+0006:  DATA 20,55
+0008:  DATA 41,52
+000A:  DATA 54,31
+000C:  DATA 20,54
+000E:  DATA 45,53
+0010:  DATA 54,20
+0012:  DATA 0D,0A
+0014:  DATA 00,00
+0016:  DATA 0D,0A
+0018:  DATA 20,55
+001A:  DATA 41,52
+001C:  DATA 54,32
+001E:  DATA 20,54
+0020:  DATA 45,53
+0022:  DATA 54,20
+0024:  DATA 0D,0A
+0026:  DATA 00,00
+*
+0052:  TBLRD*+
+0054:  MOVF   FF5,F
+0056:  BZ    0072
+0058:  MOVFF  FF6,07
+005C:  MOVFF  FF7,08
+0060:  MOVF   FF5,W
+0062:  BTFSS  F9E.4
+0064:  BRA    0062
+0066:  MOVWF  FAE
+0068:  MOVFF  07,FF6
+006C:  MOVFF  08,FF7
+0070:  BRA    0052
+0072:  GOTO   0120 (RETURN)
+0076:  TBLRD*+
+0078:  MOVF   FF5,F
+007A:  BZ    0096
+007C:  MOVFF  FF6,07
+0080:  MOVFF  FF7,08
+0084:  MOVF   FF5,W
+0086:  BTFSS  FA4.4
+0088:  BRA    0086
+008A:  MOVWF  FA9
+008C:  MOVFF  07,FF6
+0090:  MOVFF  08,FF7
+0094:  BRA    0076
+0096:  GOTO   012A (RETURN)
+....................  
+.................... #list 
+....................  
+.................... #device ADC=10  
+....................  
+.................... #FUSES HSPLL, PLL2, NOXINST, NOCPUDIV, NOFCMEN, NOIESO, NOIOL1WAY, NOWDT  
+.................... #use delay(clock=48MHz)  
+*
+0028:  CLRF   FEA
+002A:  MOVLW  07
+002C:  MOVWF  FE9
+002E:  MOVF   FEF,W
+0030:  BZ    004E
+0032:  MOVLW  0F
+0034:  MOVWF  01
+0036:  CLRF   00
+0038:  DECFSZ 00,F
+003A:  BRA    0038
+003C:  DECFSZ 01,F
+003E:  BRA    0036
+0040:  MOVLW  8F
+0042:  MOVWF  00
+0044:  DECFSZ 00,F
+0046:  BRA    0044
+0048:  NOP   
+004A:  DECFSZ FEF,F
+004C:  BRA    0032
+004E:  GOTO   0116 (RETURN)
+....................  
+.................... #pin_select  U2TX=PIN_B2  
+.................... #pin_select  U2RX=PIN_B3  
+....................  
+.................... #use rs232(uart1,baud=9600, ERRORS, STREAM=DATA1)       
+.................... #use rs232(uart2, baud=9600, ERRORS, STREAM=DATA2)  
+....................  
+.................... void main()  
+*
+009A:  CLRF   FF8
+009C:  BCF    FD0.7
+009E:  MOVLB  E
+00A0:  MOVLW  55
+00A2:  MOVWF  FA7
+00A4:  MOVLW  AA
+00A6:  MOVWF  FA7
+00A8:  BCF    xFF.0
+00AA:  MOVLW  06
+00AC:  MOVWF  xF6
+00AE:  MOVLW  05
+00B0:  MOVWF  xCB
+00B2:  MOVLW  55
+00B4:  MOVWF  FA7
+00B6:  MOVLW  AA
+00B8:  MOVWF  FA7
+00BA:  BSF    xFF.0
+00BC:  CLRF   04
+00BE:  BSF    F7E.3
+00C0:  MOVLW  E1
+00C2:  MOVWF  FB0
+00C4:  MOVLW  04
+00C6:  MOVWF  F7F
+00C8:  MOVLW  A6
+00CA:  MOVWF  FAD
+00CC:  MOVLW  90
+00CE:  MOVWF  FAC
+00D0:  BSF    F7C.3
+00D2:  MOVLW  E1
+00D4:  MOVWF  FAB
+00D6:  MOVLW  04
+00D8:  MOVWF  F7D
+00DA:  MOVLW  A6
+00DC:  MOVWF  FA8
+00DE:  MOVLW  90
+00E0:  MOVWF  F9C
+00E2:  CLRF   06
+00E4:  CLRF   05
+00E6:  MOVLW  FF
+00E8:  MOVLB  F
+00EA:  MOVWF  x48
+00EC:  BCF    FC2.6
+00EE:  BCF    FC2.7
+00F0:  MOVF   x49,W
+00F2:  ANDLW  E0
+00F4:  IORLW  1F
+00F6:  MOVWF  x49
+00F8:  CLRF   FD2
+00FA:  CLRF   FD1
+.................... {  
+....................    setup_adc_ports(NO_ANALOGS);  
+00FC:  MOVLW  FF
+00FE:  MOVWF  x48
+0100:  BCF    FC2.6
+0102:  BCF    FC2.7
+0104:  MOVF   x49,W
+0106:  ANDLW  E0
+0108:  IORLW  1F
+010A:  MOVWF  x49
+....................    output_drive(PIN_B2); //This may be needed depending on compiler version  
+010C:  BCF    F93.2
+....................    delay_ms(100);  
+010E:  MOVLW  64
+0110:  MOVWF  07
+0112:  MOVLB  0
+0114:  BRA    0028
+....................    //most RS232 level generator chips _need_ a few mSec after power on  
+....................    fprintf(DATA1,"\r\n UART1 TEST \r\n");  
+0116:  MOVLW  04
+0118:  MOVWF  FF6
+011A:  MOVLW  00
+011C:  MOVWF  FF7
+011E:  BRA    0052
+....................    fprintf(DATA2,"\r\n UART2 TEST \r\n");  
+0120:  MOVLW  16
+0122:  MOVWF  FF6
+0124:  MOVLW  00
+0126:  MOVWF  FF7
+0128:  BRA    0076
+....................      
+....................    while(true)  
+012A:  BRA    012A
+....................       ;  
+.................... } //Main  
+012C:  SLEEP 
+
+Configuration Fuses:
+   Word  1: F7AC   NOWDT PLL2 STVREN NOXINST NODEBUG NOCPUDIV NOPROTECT
+   Word  2: FF1D   HSPLL T1DIG NOLPT1OSC NOFCMEN NOIESO WDT32768
+   Word  3: F8FF   DSWDTOSC_INT RTCOSC_T1 DSBOR DSWDT DSWDT2147483648 NOIOL1WAY MSSPMSK7
+   Word  4: F1DF   WPFP WPEND NOWPCFG WPDIS

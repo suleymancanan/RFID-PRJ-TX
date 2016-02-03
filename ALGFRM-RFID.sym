@@ -1,0 +1,164 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019     rs232_errors
+01A     channel
+01B     idH
+01C     idL
+01D     chXORcod
+01E-035 RFIDmsg
+036-046 RFIDmsg_
+047-05E GSMmsg
+05F.0   RFIDmsgready
+05F.1   GSMmsgready
+05F.2   txmode
+05F.3   lcdlightenable
+05F.4   enablecomLEDTimer
+060     databit
+060.7   tempdatabit
+061-070 TXBuffer
+071-080 RXBuffer
+081-083 nrfaddress
+084-091 config_setup
+092     ShiftReg
+092.0   ShiftRegLSB
+093-094 cpucounter
+095-096 lcdlightcounter
+097     sec
+098     comLEDTimer
+099-0A4 phonenumber
+0A5-0B4 callnumber
+0B5-0BD ATCMGS
+0BE     quote
+0BF     cr
+0C0-0C1 strtok.save
+0C2     rxuart1.RFIDdata
+0C3     rxuart1.cc
+0C4     rxuart2.GSMdata
+0C5     rxuart2.gg
+0C6     MAIN.i
+0C7-106 MAIN.smsmessage
+107     text_mode.@SCRATCH1
+107     @PSTRINGC_9600_31793_31794.@SCRATCH1
+107     MAIN.@SCRATCH1
+107     @PSTRINGC_9600_31766_31767.@SCRATCH1
+107     @PSTRINGR_77.@SCRATCH1
+107     @PSTRINGR_9600_31793_31794.@SCRATCH1
+108     @delay_ms1.P1
+108     @PSTRINGC_9600_31793_31794.@SCRATCH2
+108     @PSTRINGC_9600_31766_31767.@SCRATCH2
+108     @PSTRINGR_77.@SCRATCH2
+108     @PSTRINGR_9600_31793_31794.@SCRATCH2
+109     @PUTCHAR_3_.P1
+10A     rxuart1.@SCRATCH1
+10A     rxuart2.@SCRATCH1
+10B     rxuart1.@SCRATCH2
+10B     rxuart2.@SCRATCH2
+F80-F86 IOpin
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FB8     CCP_3
+FB8     CCP_3_LOW
+FB9     CCP_3_HIGH
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0264  @delay_ms1
+00C6  @GETCH_BIU_1
+038A  @PUTCHARI_BIU_2
+0108  @GETCH_BIU_2
+02F8  @PUTCHAR_3_
+00DE  rxuart1
+0120  rxuart2
+0154  TIMER0_isr
+01EC  init_prog
+02D4  text_mode
+01A0  @const269
+02B2  @PSTRINGC_9600_31793_31794
+01AC  @const272
+0392  MAIN
+01BE  @const278
+028E  @PSTRINGC_9600_31766_31767
+01C4  @const280
+033E  @PSTRINGR_77
+0364  @PSTRINGR_9600_31793_31794
+01D0  @const286
+0392  @cinit1
+0400  @cinit2
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Users\SCANAN\Desktop\SCANAN\!!ADVANCED!PROJECTS\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Piccorretti GSM\RFID-PRJ-TX\
+
+Project Files:
+    ALGFRM-RFID.c                                           [26-Oca-16 18:38  CRC=1EB9B023]
+    ALGFRM-RFID.h                                           [26-Oca-16 18:38  CRC=0D310854]
+    ..\..\..\..\..\PICC4.135\devices\18F6310.h              [16-Tem-12 13:22  CRC=3C680C9F]
+    ..\..\..\..\..\PICC4.135\drivers\string.h               [14-Tem-11 09:13  CRC=23EDEC8F]
+    ..\..\..\..\..\PICC4.135\drivers\stddef.h               [16-Tem-10 08:27  CRC=897CEC6C]
+    ..\..\..\..\..\PICC4.135\drivers\ctype.h                [03-Oca-08 12:55  CRC=2D1F019F]
+
+Source signature=6FFBA14F
+
+Units:
+    ALGFRM-RFID (main)
+
+Compiler Settings:
+    Processor:      PIC18F6310
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      ALGFRM-RFID.err
+    Ext Symbols: ALGFRM-RFID.esym
+    INHX32:      ALGFRM-RFID.hex
+    Symbols:     ALGFRM-RFID.sym
+    List:        ALGFRM-RFID.lst
+    Debug/COFF:  ALGFRM-RFID.cof
+    Project:     ALGFRM-RFID.PJT
+    Call Tree:   ALGFRM-RFID.tre
+    Statistics:  ALGFRM-RFID.STA

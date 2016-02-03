@@ -1,0 +1,68 @@
+
+ROM used: 1448 (18%)
+          1448 (18%) including unused fragments
+
+          1 Average locations per line
+          6 Average locations per statement
+
+RAM used: 264 (34%) at main() level
+          268 (35%) worst case
+
+Stack used: 4 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  248   100  44  ALGFRM-RFID.c
+  122     0   0  ALGFRM-RFID.h
+  450     0   0  ..\..\..\..\..\PICC4.135\devices\18F6310.h
+  423   125  56  ..\..\..\..\..\PICC4.135\drivers\string.h
+   32     0   0  ..\..\..\..\..\PICC4.135\drivers\stddef.h
+   28     0   0  ..\..\..\..\..\PICC4.135\drivers\ctype.h
+----- -----
+ 1303   225 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   1   1             @delay_ms1
+0     24   1   0   187  3.2  @GETCH_BIU_1
+0      8   0   0  2527  6.2  @PUTCHARI_BIU_2
+0     24   1   0  4501  5.6  @GETCH_BIU_2
+0     70   2   1  1405  6.2  @PUTCHAR_3_
+0     42   1   2   196  4.1  rxuart1
+0     52   2   2   256  4.6  rxuart2
+0     76   3   0   415  4.7  TIMER0_isr
+0    120   4   0   749  2.4  init_prog
+0     36   1   1    48  1.3  text_mode
+0     12   0   0             @const269
+0     34   1   2             @PSTRINGC_9600_31793_31794
+0     18   1   0             @const272
+0    538  19  66  1188  4.4  MAIN
+0      6   0   0             @const278
+0     36   1   2             @PSTRINGC_9600_31766_31767
+0     12   0   0             @const280
+0     38   1   2             @PSTRINGR_77
+0     38   1   2             @PSTRINGR_9600_31793_31794
+0     28   1   0             @const286
+ Inline        0             @cinit1
+
+Program metrics:
+    Functions               10
+    Statements              225
+    Comments                376
+    Volume (V)              15891
+    Difficulty (D)          42.8
+    Effort to implement (E) 680353
+    Time to implement (T)   10 hours, 30 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   54
+    Maintainability (MI)    77
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000C4   190  0  
+000C6-01FFE  1254  6740  
+
+
+

@@ -1,0 +1,33 @@
+[PROJECT]
+Target=dd.hex
+Processor_Text=PIC18F25J50
+CCSVersion=5.051
+Compiler=PCH
+[Target Data]
+FileList=dd.c
+[dd.c]
+Type=4
+[mru-list]
+1=dd.c
+[Units]
+Count=1
+1=dd (main)
+
+[defines]
+buildcount=1
+
+[ProjectLog]
+Days=1
+D1=26-12-2015
+D1_L=2
+D1_L1=[60209]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L2=[60209]Project Closed.
+
+[Opened Files]
+1=dd.c
+t1=3
+Count=1

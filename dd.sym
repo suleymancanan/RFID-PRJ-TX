@@ -1,0 +1,76 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     rs232_errors
+005-006 @sprintf_string
+007     @delay_ms1.P1
+007     @PSTRINGC_9600_31766_31767.@SCRATCH1
+007     @PSTRINGC_9600_31754_31755.@SCRATCH1
+008     @PSTRINGC_9600_31766_31767.@SCRATCH2
+008     @PSTRINGC_9600_31754_31755.@SCRATCH2
+F4E     DSGPR0
+F4F     DSGPR1
+FA6.0   C1OUT
+FA6.1   C2OUT
+FB5     CCP_2_LOW
+FB5     CCP_2
+FB6     CCP_2_HIGH
+FBB     CCP_1_LOW
+FBB     CCP_1
+FBC     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  @const656.call
+000016  @const661.call
+000028  @delay_ms1
+000052  @PSTRINGC_9600_31766_31767
+000076  @PSTRINGC_9600_31754_31755
+00009A  @cinit1
+00009A  main
+0000FC  @cinit2
+
+Project Directory:
+    C:\Users\SCANAN\Desktop\SCANAN\!!!HOBÝ\!!!!!!!!!!!!!!!!!!!!!!!!ALGIFARM\ALGIFARM PRJ\Piccorretti GSM\RFID-PRJ-TX\
+
+Project Files:
+    dd.c                                                    [26-Ara-15 16:43  CRC=496BF843]
+    ..\..\..\..\..\..\..\..\..\Program Files (x86)\PICC5.051\Devices\18F25J50.h [22-Eki-15 10:31  CRC=4084BE92]
+
+Source signature=CA757567
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=8B93
+
+Units:
+    dd (main)
+
+Compiler Settings:
+    Processor:      PIC18F25J50
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   dd.xsym
+    Errors:      dd.err
+    Ext Symbols: dd.esym
+    INHX32:      dd.hex
+    Symbols:     dd.sym
+    List:        dd.lst
+    Debug/COFF:  dd.cof
+    Project:     dd.ccspjt
+    Call Tree:   dd.tre
+    Statistics:  dd.STA
